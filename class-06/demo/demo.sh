@@ -24,7 +24,7 @@ is_item_in_list() {
 # Loop repeatedly ask for the user for items to check
 while true; do
   # ask the user for input of an item to look for in the list
-  read -p "Enter an item to check if it's on your grocery list.(or type 'done' to finish)" item_to_check
+  read -p "Enter an item to check if it's on your grocery list.(or type 'done' to finish) " item_to_check
 
   # check if the user's input is "done"
   if [ "$item_to_check" = "done" ]; then
